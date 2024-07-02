@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>COOL DRINKS</title>
+        <link rel="stylesheet" href="style.css">
+        <a href="home.html"></a>
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header>
+            <a href="#"><img src="https://github.com/Arjunsanthosh09/starbucks/assets/124417632/86534fb0-7f37-4ab9-9525-7981b0d3df12" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">contact</a></li>
+
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just coffee<br>It's <span>Starbucks</span></h2>
+                <p>Coffee is a popular drink with many people in the world. In many recipes, especially desserts, such as Tiramisu and some Ice Creams, coffee is used as a popular flavouring agent.<b>Order and get a relief</b>checkout the flavours gueys</p>
+                <a href="#">Learn More</a>
+            </div>
+      
+        <div class="imgBox">
+            <img src="https://github.com/Arjunsanthosh09/starbucks/assets/124417632/7fd5e2cf-552f-48eb-ad88-1a18552329f5" class="starbucks">
+        </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="https://github.com/Arjunsanthosh09/starbucks/assets/124417632/d2ed9eac-1793-4c63-be7c-430b18a9d7dd" onclick="imgSlider('https://github.com/Arjunsanthosh09/starbucks/assets/124417632/7fd5e2cf-552f-48eb-ad88-1a18552329f5'); changeCircleColor('#017143')" ></li>
+            <li><img src="https://github.com/Arjunsanthosh09/starbucks/assets/124417632/d064f68a-f5a1-4aa1-b06d-45e84454b638" onclick="imgSlider('https://github.com/Arjunsanthosh09/starbucks/assets/124417632/e2ed03e6-1ca1-498a-bcf2-a5babb59a39b'); changeCircleColor('#eb7495')"  ></li>
+            <li><img src="https://github.com/Arjunsanthosh09/starbucks/assets/124417632/1ccfc386-79e5-423b-bde6-dbf5dffbdd61" onclick="imgSlider('https://github.com/Arjunsanthosh09/starbucks/assets/124417632/3cc6ac30-1731-4b46-9788-062f0a93ecbb'); changeCircleColor('#d752b1')" ></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="https://github.com/Arjunsanthosh09/starbucks/assets/124417632/db779b56-373b-44ee-9fe9-cb49283ad280"></a></li>
+            <li><a href="#"><img src="https://github.com/Arjunsanthosh09/starbucks/assets/124417632/14d046aa-1c7c-4a6f-9a99-8de7515cdaeb"></a></li>
+            <li><a href="#"><img src="https://github.com/Arjunsanthosh09/starbucks/assets/124417632/a3a23b7a-5991-45a1-bbc9-771f38ca1194"></a></li>
+
+        </ul>
+        </section>
+        
+        
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('.starbucks') .src =anything;
+            }
+            function changeCircleColor(color){
+                const circle=document.querySelector('.circle');
+                circle.style.background =color;
+            }
+        </script>
+    </body>
+</html>
